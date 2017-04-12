@@ -87,17 +87,17 @@
 
 
 
-<meta name="description" content="Introduction">
+<meta name="description" content="Introduction捯饬了半天终于搭好啦 自己的博客 帖段代码玩UIPageViewController *pageVc = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControl">
 <meta name="keywords">
 <meta property="og:type" content="article">
 <meta property="og:title" content="恭喜自己拥有了个人博客😊">
 <meta property="og:url" content="https://jackylee1992.github.io/homepage/2017/04/12/My-first-post/index.html">
 <meta property="og:site_name" content="Jacky's Notes">
-<meta property="og:description" content="Introduction">
-<meta property="og:updated_time" content="2017-04-12T09:20:17.000Z">
+<meta property="og:description" content="Introduction捯饬了半天终于搭好啦 自己的博客 帖段代码玩UIPageViewController *pageVc = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControl">
+<meta property="og:updated_time" content="2017-04-12T10:24:39.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="恭喜自己拥有了个人博客😊">
-<meta name="twitter:description" content="Introduction">
+<meta name="twitter:description" content="Introduction捯饬了半天终于搭好啦 自己的博客 帖段代码玩UIPageViewController *pageVc = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControl">
 
 
 
@@ -197,7 +197,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Home
+            Startseite
           </a>
         </li>
       
@@ -207,7 +207,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archives
+            Archiv
           </a>
         </li>
       
@@ -284,7 +284,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-04-12T17:11:02+08:00">
                 2017-04-12
@@ -322,7 +322,17 @@
       
 
       
-        <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2>
+        <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>捯饬了半天终于搭好啦 自己的博客</p>
+<h3 id="帖段代码玩"><a href="#帖段代码玩" class="headerlink" title="帖段代码玩"></a>帖段代码玩</h3><pre><code>UIPageViewController *pageVc = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+    pageVc.dataSource = self;
+    pageVc.delegate = self;
+    pageVc.doubleSided = YES;
+    [pageVc setViewControllers:@[self.vcArray.firstObject] direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:^(BOOL finished) {
+        NSLog(@&quot;completion&quot;);
+    }];
+    self.window.rootViewController = pageVc;
+    [self.window makeKeyAndVisible];
+</code></pre>
       
     </div>
 
@@ -415,10 +425,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Table of Contents
+            Inhaltsverzeichnis
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Overview
+            Übersicht
           </li>
         </ul>
       
@@ -439,7 +449,7 @@
             <div class="site-state-item site-state-posts">
               <a href="/homepage/archives">
                 <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">posts</span>
+                <span class="site-state-item-name">Artikel</span>
               </a>
             </div>
           
@@ -477,7 +487,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#帖段代码玩"><span class="nav-number">1.1.</span> <span class="nav-text">帖段代码玩</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -509,7 +519,7 @@
 
 
 <div class="powered-by">
-  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
