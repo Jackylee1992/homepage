@@ -1,2 +1,2 @@
 # Jacky's own github blog
-My own github blog with [hexo](https://hexo.io/).
+My own github blog created by [hexo](https://hexo.io/) and using theme [NexT](http://theme-next.iissnan.com/).
